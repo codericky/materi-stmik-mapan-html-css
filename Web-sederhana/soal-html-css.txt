@@ -1,0 +1,15 @@
+1. Buatlah gambar dengan bentuk bulat 
+
+2. Buatlah 5 daftar list menu bahasa web programming website favorit dengan menggunakan checkbox
+terdiri dari menu 
+  - HTML 
+  - CSS 
+  - PHP 
+  - Javascript 
+
+3. Buatlah form pendaftaran dengan format
+   - Nama Lengkap 
+   - Jenis kelamin -> berisi 1.laki laki 2.perempuan (menggunakan radion button)
+   - Agama -> bersisi agama 1.Islam 2.Hindu 3.Kristen 4.Buddha (menggunakan option html)
+   - Asal -> menggunakan TextArea
+   - Dan Button / Tombol
