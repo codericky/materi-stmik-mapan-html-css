@@ -1,6 +1,10 @@
+header {
+    background-color: grey;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: #e6e6e6;
+    background: white;
     padding: 0;
     margin:0;
     
@@ -11,13 +15,13 @@ body{
     height: auto;
     background: white;
     margin:auto;
-    margin-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 1px;
 }
 
 .logo {
     font-size: xx-large;
     padding: 30px 0 30px 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul {
@@ -43,7 +47,7 @@ nav li a{
 
 nav li a:hover {
     opacity:0.9;
-    background-color: #3385ff;
+    background-color: red;
 }
 
 article {
@@ -59,6 +63,7 @@ article p {
     padding: 5px 6px 5px 5px;
     line-height: 1.5;  
 }
+
 article .konten {
     width: 23.5%;
     height: auto;
@@ -69,6 +74,7 @@ article .konten {
 }
 
 article .isi {
+
     width: 98.5%;
     height: auto;
     margin: 5px 5px 5px 5px;
@@ -76,15 +82,18 @@ article .isi {
     border: 1px solid gainsboro;
     float: left;
 }
+
 article .isi .judul {
     font-size: xx-large;
     margin-bottom: 10px;
     margin-left: 10px;
     margin-top: 10px;
 }
+
 article .isi p {
     margin-top: 0;
 }
+
 article .isi img {
     float: left;
     margin: 5px 5px 5px 5px;
@@ -94,12 +103,12 @@ article .konten img {
     width: 95.8%;
     height: 150px;
     margin: 5px 5px 5px 5px;
-
 }
+
 article .konten:hover {
     opacity:0.9;
-
 }
+
 article .konten .judul a {
     margin-left: 5px;
     text-decoration: none;
@@ -114,7 +123,7 @@ article .konten a:hover {
 footer {
     clear: both;
     width: 98.8%;
-    height: 80px;
+    height: 150px;
     text-align: center;
     margin: 5px 5px 5px 5px;
     border-radius: 3px;
@@ -129,3 +138,25 @@ img {
     width: 40%;
     height: 40%;
 }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+  }
+
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  hr {
+      width: 80px;
+  }
