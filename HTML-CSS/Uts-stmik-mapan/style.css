@@ -101,6 +101,7 @@ img {
   th {
       background-color:blue;
       text-align: center;
+      color:white;
   }
   td, th {
     border: 1px solid #dddddd;
