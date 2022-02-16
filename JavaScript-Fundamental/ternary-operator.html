@@ -1,0 +1,70 @@
+<html>
+    <header>
+        <title>Belajar JavaScript Ternary Operator</title>
+        <body>
+            <h2 style="text-align: center;">Sedang Belajar JavaScript Ternary Operator</h2>
+            <p id="root"></p>
+            <script>
+/*
+                    function checkType(n){
+                    console.log('-------');
+                    var status;
+                    var t = typeof n;
+                    switch (t) {
+
+                    case 'string':
+                    status = 'anda memasukkan string';
+                    break;
+
+                    case 'number':
+                    status = 'anda memasukkan angka';
+                    break;
+
+                    default:
+                    //jika t bukan string ataupun number
+                    status = 'anda memasukkan object';
+
+
+                    }
+                    console.log(status);
+                    }
+                    checkType('a');//anda memasukkan string
+                    checkType(100); //anda memasukkan angka
+                    checkType('100');//anda memasukkan string
+                    checkType(null); //anda memasukkan object
+                    checkType(undefined); //anda memasukkan object
+                    checkType([1, 2, 3]); //anda memasukkan object
+*/                  
+                    // buat variable 
+
+                        let hari = "Senin";
+                    switch (hari) {
+                    case 0:
+                        hari = "Senin";
+                        break;
+                    case 1:
+                        hari = "Selasa";
+                        break;
+                    case 2:
+                        hari = "Rabu";
+                        break;
+                    case 3:
+                        hari = "Kamis";
+                        break;
+                    case 4:
+                        hari = "Jumat";
+                        break;
+                    case 5:
+                        hari = "Sabtu";
+                        break;
+                    case  6:
+                        hari = "Minggu";
+                    case  7:
+                        default :"not found";
+                    }
+
+                 document.getElementById("root").innerHTML = hari;
+            </script>
+        </body>
+    </header>
+</html>

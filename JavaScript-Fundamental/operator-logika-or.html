@@ -1,0 +1,26 @@
+<html>
+    <header>
+        <title>Belajar JavaScript Operator Logika OR </title>
+        <body>
+            <h2 style="text-align: center;">Sedang Belajar JavaScript Operator OR (||)</h2>
+            <p id="root"></p>
+            <script>
+
+                // Operator OR (||)
+                // Operator ini berfungsi jika salah satu ekspresi kanan atau kiri bernilai true
+                var a = true;
+                var b = true;
+                console.log(a || b);//true
+                a = false;
+                console.log(a || b);//true
+                a = b = false;
+                console.log(a || b);//false
+                b = true;
+                var c = false;
+                console.log(a || b || c);//true
+
+               
+            </script>
+        </body>
+    </header>
+</html>
